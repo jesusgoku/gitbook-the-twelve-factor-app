@@ -22,3 +22,53 @@ Nuestra motivación es mejorar la concienciación sobre algunos problemas sisté
 
 ¿Quién debería leer este documento?
 Cualquier desarrollador que construya aplicaciones y las ejecute como un servicio. Ingenieros de operaciones que desplieguen y gestionen dichas aplicaciones.
+
+## Twelve Factors
+
+### [I. Código base (Codebase)](01-codigo-base.md)
+
+Un código base sobre el que hacer el control de versiones y multiples despliegues
+
+### [II. Dependencias](02-dependencias.md)
+
+Declarar y aislar explícitamente las dependencias
+
+### [III. Configuración](03-configuracion.md)
+
+Guardar la configuración en el entorno
+
+### [IV. Backing services](04-backing-services.md)
+
+Tratar a los “backing services” como recursos conectables
+
+### [V. Construir, distribuir, ejecutar](05-construir-distribuir-ejecutar.md)
+
+Separar completamente la etapa de construcción de la etapa de ejecución
+
+### [VI. Procesos](06-procesos.md)
+
+Ejecutar la aplicación como uno o más procesos sin estado
+
+### [VII. Asignación de puertos](07-asignacion-puertos.md)
+
+Publicar servicios mediante asignación de puertos
+
+### [VIII. Concurrencia](08-concurrencia.md)
+
+Escalar mediante el modelo de procesos
+
+### [IX. Desechabilidad](09-desechabilidad.md)
+
+Hacer el sistema más robusto intentando conseguir inicios rápidos y finalizaciones seguras
+
+### [X. Igualdad entre desarrollo y producción](10-igualdad-desarrollo-produccion.md)
+
+Mantener desarrollo, preproducción y producción tan parecidos como sea posible
+
+### [XI. Historiales](11-historiales.md)
+
+Tratar los historiales como una transmisión de eventos
+
+### [XII. Administración de procesos](12-administracion-procesos.md)
+
+Ejecutar las tareas de gestión/administración como procesos que solo se ejecutan una vez
