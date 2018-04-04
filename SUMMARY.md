@@ -11,3 +11,4 @@
 * [IX. Desechabilidad](09-desechabilidad.md)
 * [X. Igualdad entre desarrollo y producción](10-igualdad-desarrollo-produccion.md)
 * [XI. Historiales](11-historiales.md)
+* [XII. Administración de procesos](12-administracion-procesos.md)
