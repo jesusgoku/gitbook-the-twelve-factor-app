@@ -9,3 +9,4 @@
 * [VII. Asignación de puertos](07-asignacion-puertos.md)
 * [VIII. Concurrencia](08-concurrencia.md)
 * [IX. Desechabilidad](09-desechabilidad.md)
+* [X. Igualdad entre desarrollo y producción](10-igualdad-desarrollo-produccion.md)
