@@ -7,3 +7,4 @@
 * [V. Construir, distribuir, ejecutar](05-construir-distribuir-ejecutar.md)
 * [VI. Procesos](06-procesos.md)
 * [VII. Asignación de puertos](07-asignacion-puertos.md)
+* [VIII. Concurrencia](08-concurrencia.md)
