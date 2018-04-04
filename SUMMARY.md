@@ -8,3 +8,4 @@
 * [VI. Procesos](06-procesos.md)
 * [VII. Asignación de puertos](07-asignacion-puertos.md)
 * [VIII. Concurrencia](08-concurrencia.md)
+* [IX. Desechabilidad](09-desechabilidad.md)
