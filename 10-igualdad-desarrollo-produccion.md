@@ -2,7 +2,7 @@
 
 ## Mantener desarrollo, preproducción y producción tan parecidos como sea posible
 
-Históricamente, han existido dos tipos de entorno muy diferenciados: desarrollo (donde un desarrollador puede editar en vivo en un [despliegue](https://12factor.net/es/codebase) local de la aplicación) y producción (un despliegue en el que la aplicación está en ejecución disponible para que lo usen los usuarios). Estas diferencias se pueden clasificar en tres tipos:
+Históricamente, han existido dos tipos de entorno muy diferenciados: desarrollo (donde un desarrollador puede editar en vivo en un [despliegue](01-codigo-base.md) local de la aplicación) y producción (un despliegue en el que la aplicación está en ejecución disponible para que lo usen los usuarios). Estas diferencias se pueden clasificar en tres tipos:
 
 - **Diferencias de tiempo**: Un desarrollador puede estar trabajando en un código durante días, semanas o incluso meses antes de que llegue a producción.
 - **Diferencias de personal**: Los desarrolladores escriben el código y los ingenieros de operaciones lo despliegan.
@@ -22,7 +22,7 @@ Resumiendo lo anterior en una tabla:
 | Desarrolladores vs Ingenieros de operaciones | Diferentes personas | Mismas personas |
 | Entorno de desarrollo vs entorno de producción | Divergentes | Lo más parecidos posibles |
 
-Los [“backing services”](https://12factor.net/es/backing-services), como la base de datos de la aplicación, el sistema de colas, o la caché, es donde la igualdad en los entornos de desarrollo y producción es importante. Muchos lenguajes ofrecen librerías en las que se simplifica el acceso a los servicios de respaldo, incluidos adaptadores para diferentes tipos de servicios. Se pueden observar algunos ejemplos en la siguiente tabla.
+Los [“backing services”](04-backing-services.md), como la base de datos de la aplicación, el sistema de colas, o la caché, es donde la igualdad en los entornos de desarrollo y producción es importante. Muchos lenguajes ofrecen librerías en las que se simplifica el acceso a los servicios de respaldo, incluidos adaptadores para diferentes tipos de servicios. Se pueden observar algunos ejemplos en la siguiente tabla.
 
 | Tipo | Lenguaje | Librería | Adaptador |
 | - | :-: | :-: | :-: |

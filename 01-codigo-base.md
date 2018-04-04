@@ -11,7 +11,7 @@ El código base es cualquier repositorio (en un sistema de control de versiones 
 Siempre hay una relación uno a uno entre el código base y la aplicación:
 
 - Si hay multiples códigos base, no es una aplicación – es un sistema distribuido. Cada componente en un sistema distribuido es una aplicación, y cada uno, individualmente, puede cumplir los requisitos de una aplicación “twelve-factor”.
-- Compartir código en varias aplicaciones se considera una violación de la metodología “twelve factor”. La solución en este caso es separar el código compartido en librerías que pueden estar enlazadas mediante un [gestor de dependencias](https://12factor.net/es/dependencies).
+- Compartir código en varias aplicaciones se considera una violación de la metodología “twelve factor”. La solución en este caso es separar el código compartido en librerías que pueden estar enlazadas mediante un [gestor de dependencias](02-dependencias.md).
 
 El código base de la aplicación es único, sin embargo, puede haber tantos despliegues de la aplicación como sean necesarios. Un despliegue es una instancia de la aplicación que está en ejecución. Normalmente, se ejecuta en un entorno de producción, y uno o varios entornos de pruebas. Además, cada desarrollador tiene una instancia en su propio entorno de desarrollo, los cuales se consideran también como despliegues.
 

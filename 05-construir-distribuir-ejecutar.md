@@ -2,11 +2,11 @@
 
 ## Separar completamente la etapa de construcción de la etapa de ejecución
 
-El [código base](https://12factor.net/es/codebase) se transforma en un despliegue (que no es de desarrollo) al completar las siguientes tres etapas:
+El [código base](01-codigo-base.md) se transforma en un despliegue (que no es de desarrollo) al completar las siguientes tres etapas:
 
-- La etapa de construcción es una transformación que convierte un repositorio de código en un paquete ejecutable llamado construcción (una “build”). En la etapa de construcción se traen todas las [dependencias](https://12factor.net/es/dependencies) y se compilan los binarios y las herramientas usando una versión concreta del código correspondiente a un commit especificado por el proceso de despliegue.
-- En la fase de distribución se usa la construcción creada en la fase de construcción y se combina con la [configuración](https://12factor.net/es/config) del despliegue actual. Por tanto, la distribución resultante contiene tanto la construcción como la configuración y está lista para ejecutarse inmediatamente en el entorno de ejecución.
-- La fase de ejecución (también conocida como “runtime”) ejecuta la aplicación en el entorno de ejecución, lanzando un conjunto de [procesos](https://12factor.net/es/processes) de una distribución concreta de la aplicación.
+- La etapa de construcción es una transformación que convierte un repositorio de código en un paquete ejecutable llamado construcción (una “build”). En la etapa de construcción se traen todas las [dependencias](02-dependencias.md) y se compilan los binarios y las herramientas usando una versión concreta del código correspondiente a un commit especificado por el proceso de despliegue.
+- En la fase de distribución se usa la construcción creada en la fase de construcción y se combina con la [configuración](03-configuracion.md) del despliegue actual. Por tanto, la distribución resultante contiene tanto la construcción como la configuración y está lista para ejecutarse inmediatamente en el entorno de ejecución.
+- La fase de ejecución (también conocida como “runtime”) ejecuta la aplicación en el entorno de ejecución, lanzando un conjunto de [procesos](06-procesos.md) de una distribución concreta de la aplicación.
 
 ![El código se convierte en una construcción, que se combina con la configuración para crear una distribución.](images/release.png)
 

@@ -2,7 +2,7 @@
 
 ## Hacer el sistema más robusto intentando conseguir inicios rápidos y finalizaciones seguras
 
-**Los [procesos](https://12factor.net/es/processes) de las aplicaciones “twelve-factor” son desechables, lo que significa que pueden iniciarse o finalizarse en el momento que sea necesario**. Esto permite un escalado rápido y flexible, un despliegue rápido del [código](https://12factor.net/es/codebase) y de los cambios de las [configuraciones](https://12factor.net/es/config), y despliegues más robustos en producción.
+**Los [procesos](06-procesos.md) de las aplicaciones “twelve-factor” son desechables, lo que significa que pueden iniciarse o finalizarse en el momento que sea necesario**. Esto permite un escalado rápido y flexible, un despliegue rápido del [código](01-codigo-base.md) y de los cambios de las [configuraciones](03-configuracion.md), y despliegues más robustos en producción.
 
 Los procesos deberían intentar conseguir **minimizar el tiempo de arranque**. En el mejor de los casos, un proceso necesita unos pocos segundos desde que se ejecuta el mandato hasta que arranca y está preparado para recibir peticiones o trabajos. Mejorar el tiempo de arranque proporciona mayor agilidad en el proceso de [distribución](https://12factor.net/es/build-release-run) y escalado; y lo hace más robusto, porque el gestor de procesos puede mover procesos de forma segura entre máquinas físicas más fácilmente.
 

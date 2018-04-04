@@ -2,9 +2,9 @@
 
 ## Guardar la configuración en el entorno
 
-La configuración de una aplicación es todo lo que puede variar entre [despliegues](https://12factor.net/es/codebase) (entornos de preproducción, producción, desarrollo, etc), lo cual incluye:
+La configuración de una aplicación es todo lo que puede variar entre [despliegues](01-codigo-base.md) (entornos de preproducción, producción, desarrollo, etc), lo cual incluye:
 
-- Recursos que manejan la base de datos, Memcached, y otros [“backing services”](https://12factor.net/es/backing-services)
+- Recursos que manejan la base de datos, Memcached, y otros [“backing services”](04-backing-services.md)
 - Credenciales para servicios externos tales como Amazon S3 o Twitter
 - Valores de despliegue como por ejemplo el nombre canónico del equipo para el despliegue
 
